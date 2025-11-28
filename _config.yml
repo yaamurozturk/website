@@ -23,7 +23,7 @@ repository               : "yaamurozturk.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "About me"
   pronouns         : "she/her"  
   bio              : "I am a PhD candidate in the Grenoble Informatics Laboratory focusing on metascience and natural language processing"
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "https://bsky.app/profile/nanobubbles.bsky.social" # Replace this with you Bluesky username
+  bluesky          : "nanobubbles.bsky.social" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
