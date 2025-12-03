@@ -29,9 +29,9 @@ author:
   bio              : "I am a PhD candidate in the Grenoble Informatics Laboratory focusing on metascience and natural language processing"
   location         : "Grenoble, France"
   employer         : "Grenoble Alpes University"
-  uri              : # URL
+  uri              : "https://cosig.net/"
   academic email            : "first.last@univ-grenoble-alpes.fr" 
-  COSIG: "https://cosig.net/"
+  
 
   # Academic websites
   academia         : # URL
@@ -85,12 +85,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+#  books:
+#    title: 'Books'
+#  manuscripts:
+ #   title: ''    
+ # conferences:
+ #   title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
