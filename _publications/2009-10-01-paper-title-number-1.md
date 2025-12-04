@@ -1,11 +1,9 @@
 ---
 title: "Evaluating diversity of multiword expressions in annotated text"
 collection: publications
-category: manuscripts
 permalink: /publication/COLING_1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2022-10
-venue: 'Journal 1'
+date: 2022-10-10
 paperurl: '[https://academicpages.github.io/files/paper1.pdf](https://aclanthology.org/2022.coling-1.290.pdf)'
 citation: 'Adam Lion-Bouton, Yagmur Ozturk, Agata Savary, and Jean-Yves Antoine. 2022. Evaluating Diversity of Multiword Expressions in Annotated Text. In Proceedings of the 29th International Conference on Computational Linguistics, pages 3285–3295, Gyeongju, Republic of Korea. International Committee on Computational Linguistics.'
 ---
