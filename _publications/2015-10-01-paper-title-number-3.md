@@ -1,12 +1,12 @@
 ---
-title: "Enhancing the PARSEME Turkish Corpus of Verbal Multiword Expressions"
+title: "Evaluating Diversity of Multiword Expressions in Annotated Text"
 collection: publications
-permalink: /publication/LREC_MWE
-excerpt: 'Case study for my internship at LISN focusing on Turkish multiword expressions.'
-date: 2022-06-25
-venue: 'Proceedings of the 18th Workshop on Multiword Expressions (MWE 2022) at LREC2022'
-paperurl: 'https://aclanthology.org/2022.mwe-1.14.pdf'
-citation: 'Yagmur Ozturk, Najet Hadj Mohamed, Adam Lion-Bouton, and Agata Savary. 2022. Enhancing the PARSEME Turkish Corpus of Verbal Multiword Expressions. In Proceedings of the 18th Workshop on Multiword Expressions @LREC2022, pages 100–104, Marseille, France. European Language Resources Association.'
+permalink: /publication/COLING_MWE
+excerpt: 'Case study on diversity measures for multiword expression annotation related to my internship at LISN.'
+date: 2022-10-12
+venue: 'Proceedings of the 29th International Conference on Computational Linguistics'
+paperurl: 'https://aclanthology.org/2022.coling-1.290.pdf'
+citation: 'Adam Lion-Bouton, Yagmur Ozturk, Agata Savary, and Jean-Yves Antoine. 2022. Evaluating Diversity of Multiword Expressions in Annotated Text. In Proceedings of the 29th International Conference on Computational Linguistics, pages 3285–3295, Gyeongju, Republic of Korea. International Committee on Computational Linguistics.'
 ---
 
-The PARSEME (Parsing and Multiword Expressions) project proposes multilingual corpora annotated for multiword expressions (MWEs). In this case study, we focus on the Turkish corpus of PARSEME. Turkish is an agglutinative language and shows high inflection and derivation in word forms. This can cause some issues in terms of automatic morphosyntactic annotation. We provide an overview of the problems observed in the morphosyntactic annotation of the Turkish PARSEME corpus. These issues are mostly observed on the lemmas, which is important for the approximation of a type of an MWE. We propose modifications of the original corpus with some enhancements on the lemmas and parts of speech. The enhancements are then evaluated with an identification system from the PARSEME Shared Task 1.2 to detect MWEs, namely Seen2Seen. Results show increase in the F-measure for MWE identification, emphasizing the necessity of robust morphosyntactic annotation for MWE processing, especially for languages that show high surface variability.
+Diversity can be decomposed into three distinct concepts, namely: variety, balance and disparity. This paper borrows from the extensive formalization and measures of diversity developed in ecology in order to evaluate the variety and balance of multiword expression annotation produced by automatic annotation systems. The measures of richness, normalized richness, and two variations of Hill’s evenness are considered in this paper. We observe how these measures behave against increasingly smaller samples of gold annotations of multiword expressions and use their comportment to validate or invalidate their pertinence for multiword expressions in annotated texts. We apply the validated measures to annotations in 14 languages produced by systems during the PARSEME shared task on automatic identification of multiword expressions and on the gold versions of the corpora. We also explore the limits of such evaluation by studying the impact of lemmatization errors in the Turkish corpus used in the shared task.
